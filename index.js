@@ -1,19 +1,15 @@
 /**
- * Switch-case. Task 5
+ * Switch-case. Task 6
  * @type {boolean}
  */
 let string = prompt('Введите строку');
 let splitStr = string.split('');
-let toNumb = Number(splitStr[0]);
+let firstNumb = Number(splitStr[0]);
+let secondNumb = Number(splitStr[1]);
+let thirdNumb = Number(splitStr[2]);
 
-switch (toNumb) {
-    case 1:
-    case 2:
-    case 3:
-        alert('да');
-        break;
-
+switch (firstNumb, secondNumb, thirdNumb) {
     default:
-        alert('нет');
+        firstNumb + secondNumb + thirdNumb;
         break;
 };
