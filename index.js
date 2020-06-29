@@ -1,12 +1,15 @@
 /**
- * Switch-case. Task 4
+ * Switch-case. Task 5
  * @type {boolean}
  */
 let string = prompt('Введите строку');
-let result = string.split('');
+let splitStr = string.split('');
+let toNumb = Number(splitStr[0]);
 
-switch (result[0]) {
-    case 'a':
+switch (toNumb) {
+    case 1:
+    case 2:
+    case 3:
         alert('да');
         break;
 
