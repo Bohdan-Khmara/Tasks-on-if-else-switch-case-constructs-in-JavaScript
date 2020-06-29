@@ -1,9 +1,12 @@
 /**
- * Work with if-else. Task 8
- * @type {number}
+ * Work with logical variables. Task 1
+ * @type {boolean}
  */
-let a = '1';
+let test1 = true;
 
-if (a === '1') {
-   alert('Верно!');
+if (test1 === true) {
+    alert('Верно!');
 } else alert('Не верно!');
+
+let test2 = true;
+let result = (test2 === true) ? alert('Верно!') : alert('Не верно!');
