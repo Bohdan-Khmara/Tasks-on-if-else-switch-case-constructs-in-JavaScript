@@ -1,37 +1,30 @@
 /**
- * Switch-case. Task 2
+ * Switch-case. Task 3
  * @type {boolean}
  */
-let day = Number(prompt('Введите дату'));
+let month = Number(prompt('Введите число от 1 до 12'));
+let result;
 
-switch (day) {
+switch (month) {
     case 1:
     case 2:
     case 3:
+        alert('зима');
+        break;
+
     case 4:
     case 5:
     case 6:
+        alert('весна');
+        break;
+
     case 7:
     case 8:
     case 9:
-    case 10:
-        alert('первая декада');
-        break;
-
-    case 11:
-    case 12:
-    case 13:
-    case 14:
-    case 15:
-    case 16:
-    case 17:
-    case 18:
-    case 19:
-    case 20:
-        alert('вторая декада');
+        alert('лето');
         break;
 
     default:
-        alert('третья декада');
+        alert('осень');
         break;
-}
+};
