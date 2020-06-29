@@ -1,9 +1,8 @@
 /**
- * Work with && (and) and || (or). Task 3
+ * Work with && (and) and || (or). Task 4
  * @type {boolean}
  */
-let a = 0;
+let a = 3;
 let b = 6;
 
-let result = (a <= 1 && b >= 3) ? a + b : a - b;
-alert(result);
+let result = (a > 2 && a < 11 || b >= 6 && 14) ? alert('Верно!') : alert('Не верно!');
