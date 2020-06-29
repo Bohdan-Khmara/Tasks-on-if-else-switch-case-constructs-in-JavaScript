@@ -1,8 +1,23 @@
 /**
- * Work with && (and) and || (or). Task 4
+ * Switch-case. Task 1
  * @type {boolean}
  */
-let a = 3;
-let b = 6;
+let num = Number(prompt('Введите число от 1 до 4'));
 
-let result = (a > 2 && a < 11 || b >= 6 && 14) ? alert('Верно!') : alert('Не верно!');
+switch (num) {
+    case 1:
+        alert('зима');
+        break;
+
+    case 2:
+        alert('весна');
+        break;
+
+    case 3:
+        alert('лето');
+        break;
+
+    default:
+        alert('осень');
+        break;
+}
