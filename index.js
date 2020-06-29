@@ -1,7 +1,9 @@
 /**
- * Work with && (and) and || (or). Task 2
+ * Work with && (and) and || (or). Task 3
  * @type {boolean}
  */
-let a = 2;
-let result = (a === 0 || a === 2) ? a + 7 : a / 10;
+let a = 0;
+let b = 6;
+
+let result = (a <= 1 && b >= 3) ? a + b : a - b;
 alert(result);
