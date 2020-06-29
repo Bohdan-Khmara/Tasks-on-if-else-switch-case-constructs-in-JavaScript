@@ -1,9 +1,9 @@
 /**
- * Work with if-else. Task 7
+ * Work with if-else. Task 8
  * @type {number}
  */
-let a = 'test';
+let a = '1';
 
-if (a === 'test') {
-    alert('Верно!');
+if (a === '1') {
+   alert('Верно!');
 } else alert('Не верно!');
