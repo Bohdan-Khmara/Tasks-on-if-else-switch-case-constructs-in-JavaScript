@@ -1,12 +1,12 @@
 /**
- * Work with logical variables. Task 1
+ * Work with logical variables. Task 2
  * @type {boolean}
  */
-let test1 = true;
+let test1 = false;
 
-if (test1 === true) {
+if (test1 !== true) {
     alert('Верно!');
 } else alert('Не верно!');
 
-let test2 = true;
-let result = (test2 === true) ? alert('Верно!') : alert('Не верно!');
+let test2 = false;
+let result = (test2 !== true) ? alert('Верно!') : alert('Не верно!');
